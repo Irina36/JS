@@ -1,10 +1,10 @@
-var myImage = document.querySelector('img');
+var myImage = document.querySelector('h1');
 
 myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/firefox-icon.png') {
+    var mySrc = myImage.getAttribute('h1');
+    if(mySrc === 'Mozilla is cool') {
       myImage.setAttribute ('src','images/surfing.jpg');
     } else {
-      myImage.setAttribute ('src','images/firefox-icon.png');
+      myImage.setAttribute ('h1','Mozilla is cool');
     }
 }
